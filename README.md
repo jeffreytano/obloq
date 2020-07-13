@@ -63,5 +63,5 @@ If you want the detail description, please visit my website:\
 (The metadata above is needed for package search.)
 
 ```package
-Obloq_http=github:Gitgit101-bit/pxt-Microbit-Obloq
+Obloq_http=github:jeffreytano/pxt-obloq
 ```
