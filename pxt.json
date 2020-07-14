@@ -1,15 +1,23 @@
 {
-    "name": "Obloq_http",
-    "version": "0.0.4",
-    "description": "這是專為micro:bit提供的DFRobot Obloq積木(This is the HTTP blocks for DFRobot Obloq)",
+    "name": "Obloq",
+    "version": "1.0.0",
+    "description": "Add Wi-Fi connectivity to micro:bit and start your IoT project in 5 minutes!",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "radio": "*"
     },
     "files": [
         "README.md",
-        "main.ts",
-        "_locales/zh-tw/Obloq_http-strings.json"
+        "Obloq.ts",
+        "Obloq.cpp",
+        "_locales/zh-cn/Obloq-strings.json",
+        "_locales/zh-tw/Obloq-strings.json"
+    ],
+    "testFiles": [
+        "test.ts",
+        "mqttMoretest.ts",
+        "httpTest.ts"
     ],
     "public": true
 }
